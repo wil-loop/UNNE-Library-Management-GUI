@@ -1,0 +1,17 @@
+#BlueJ class context
+#Sun Nov 08 22:39:56 ART 2026
+comment0.target=Estudiante
+comment0.text=\r\n Representa un estudiante con caracter\u00EDsticas y comportamientos de socio. Posee un atributo carrera\r\n y dispone de un plazo de pr\u00E9stamo de libros de 20 d\u00EDas\r\n \r\n @author Cantero, William Francisco\r\n @version 04/11/2026\r\n
+comment1.params=p_dni p_nombre p_carrera
+comment1.target=Estudiante(int, java.lang.String, java.lang.String)
+comment1.text=\r\n Construye un estudiante \r\n \r\n @param p_carrera Carrera a la que pertenece el estudiante\r\n @param p_dni Dni del estudiante\r\n @param p_nombre Nombre del estudiante\r\n
+comment2.params=p_carrera
+comment2.target=void setCarrera(java.lang.String)
+comment2.text=\r\n Asigna la carrera pasada por p\u00E1rametro al atributo carrera del estudiante\r\n \r\n @param p_carrera La carrera que cursa el estudiante\r\n
+comment3.target=java.lang.String getCarrera()
+comment3.text=\r\n Devuelve la carrera que cursa el estudiante\r\n \r\n @return Valor interno del atributo carrera\r\n
+comment4.target=boolean puedePedir()
+comment4.text=\r\n Comprueba si el estudiante cumple las condiciones de realizar pr\u00E9stamos de libros\r\n \r\n @return true si no tiene pr\u00E9stamos vencidos ni si posee m\u00E1s de 3 libros prestados, false en caso contrario\r\n
+comment5.target=java.lang.String soyDeLaClase()
+comment5.text=\r\n Identifica la clase a la que pertenece el objeto\r\n \r\n @return Cadena de caracteres "Estudiante"\r\n
+numComments=6

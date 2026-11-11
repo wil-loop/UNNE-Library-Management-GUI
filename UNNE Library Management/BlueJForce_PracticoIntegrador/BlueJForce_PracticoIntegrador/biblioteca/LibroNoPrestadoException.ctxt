@@ -1,0 +1,16 @@
+#BlueJ class context
+#Sun Nov 08 22:39:56 ART 2026
+comment0.target=LibroNoPrestadoException
+comment0.text=\r\n Excepci\u00F3n que se lanza cuando se intenta realizar una operaci\u00F3n \r\n sobre un libro que no se encuentra prestado. crea la exepciones.\r\n \r\n @author Ivan Jeremias Caraballo\r\n @version 1.0\r\n
+comment1.target=LibroNoPrestadoException()
+comment1.text=Construye una excepci\u00F3n sin mensaje ni causa especificada.
+comment2.params=mensaje
+comment2.target=LibroNoPrestadoException(java.lang.String)
+comment2.text=\r\nConstruye una excepci\u00F3n con un mensaje descriptivo.\r\n@param mensaje Descripci\u00F3n del motivo por el cual se produjo la excepci\u00F3n.\r\n
+comment3.params=mensaje causa
+comment3.target=LibroNoPrestadoException(java.lang.String, java.lang.Throwable)
+comment3.text=\r\nConstruye una excepci\u00F3n con un mensaje descriptivo y una causa asociada.\r\n@param mensaje Descripci\u00F3n del motivo por el cual se produjo la excepci\u00F3n.\r\n@param causa Excepci\u00F3n original que provoc\u00F3 esta excepci\u00F3n.\r\n
+comment4.params=causa
+comment4.target=LibroNoPrestadoException(java.lang.Throwable)
+comment4.text=\r\nConstruye una excepci\u00F3n a partir de una causa.\r\n@param causa Excepci\u00F3n original que provoc\u00F3 esta excepci\u00F3n.\r\n
+numComments=5

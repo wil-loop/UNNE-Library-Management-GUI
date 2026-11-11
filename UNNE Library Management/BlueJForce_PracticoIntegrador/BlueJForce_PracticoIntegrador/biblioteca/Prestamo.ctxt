@@ -1,0 +1,30 @@
+#BlueJ class context
+#Sun Nov 08 22:39:56 ART 2026
+comment0.target=Prestamo
+comment0.text=\r\n Clase Prestamo\r\n @author Fabregat Malena Ayelen\r\n
+comment1.params=p_fechaRetiro p_socio p_libro
+comment1.target=Prestamo(java.util.Calendar, Socio, Libro)
+comment1.text=\r\n Metodo constructor\r\n @param p_fechaRetiro, p_socio, p_libro\r\n
+comment10.params=p_fechaDevolucion
+comment10.target=void registrarFechaDevolucion(java.util.Calendar)
+comment10.text=\r\n Metodo registrarFechaDevolucion\r\n @param p_fechaDevolucion\r\n
+comment11.params=p_fecha
+comment11.target=boolean vencido(java.util.Calendar)
+comment11.text=\r\n Metodo vencido\r\n @param p_fecha\r\n @return TRUE si la fecha recibida es posterior a la fecha l\u00EDmite\r\n
+comment12.target=java.lang.String toString()
+comment12.text=\r\n Metodo toString\r\n @return concatenacion de datos\r\n
+comment2.params=p_fechaRetiro
+comment2.target=void setFechaRetiro(java.util.Calendar)
+comment2.text=\r\n Setters\r\n
+comment3.params=p_fechaDevolucion
+comment3.target=void setFechaDevolucion(java.util.Calendar)
+comment4.params=p_socio
+comment4.target=void setSocio(Socio)
+comment5.params=p_libro
+comment5.target=void setLibro(Libro)
+comment6.target=java.util.Calendar getFechaRetiro()
+comment6.text=\r\n Getters\r\n
+comment7.target=java.util.Calendar getFechaDevolucion()
+comment8.target=Socio getSocio()
+comment9.target=Libro getLibro()
+numComments=13

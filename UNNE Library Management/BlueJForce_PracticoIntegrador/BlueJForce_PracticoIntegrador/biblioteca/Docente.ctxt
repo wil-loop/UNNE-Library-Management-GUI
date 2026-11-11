@@ -1,0 +1,22 @@
+#BlueJ class context
+#Sun Nov 08 22:39:56 ART 2026
+comment0.target=Docente
+comment0.text=\r\n Representa a un docente que hereda las caracter\u00EDsticas y comportamientos de un socio. Posee un \u00E1rea de especializacion\r\n y dispone de un plazo de pr\u00E9stamo de libros de cinco d\u00EDas, sujeto a modificaciones con condiciones de responsabilidad\r\n \r\n @author Cantero, William Francisco\r\n @version 04/11/2026\r\n
+comment1.params=p_dni p_nombre p_area
+comment1.target=Docente(int, java.lang.String, java.lang.String)
+comment1.text=\r\n Construye un docente\r\n \r\n @param p_area \u00C1rea de especializaci\u00F3n del docente\r\n @param p_dni DNI del docente\r\n @param p_nombre Nombre del docente\r\n
+comment2.params=p_area
+comment2.target=void setArea(java.lang.String)
+comment2.text=\r\n Asiga el \u00E1rea pasada por par\u00E1metro al atributo area del docente\r\n \r\n @param p_area \u00C1rea de especializaci\u00F3n del docente\r\n
+comment3.target=java.lang.String getArea()
+comment3.text=\r\n Devuelve el \u00E1rea de especializaci\u00F3n del docente\r\n \r\n @return Valor interno del atributo area\r\n
+comment4.target=boolean esResponsable()
+comment4.text=\r\n Comprueba si el docente cumple las condiciones de responsabilidad\r\n \r\n @return true si no tiene pr\u00E9stamos vencidos ni devoluciones vencidas, false en caso contrario\r\n
+comment5.target=boolean puedePedir()
+comment5.text=\ Comprueba si el docente cumple las condiciones para realizar pr\u00E9stamos de libros\r\n \r\n @return true si no tiene ninguna devoluci\u00F3n vencida, false en caso contrario\r\n
+comment6.params=p_dias
+comment6.target=void cambiarDiasDePrestamo(int)
+comment6.text=\ Incrementa la cantidad de d\u00EDas permitidos para los pr\u00E9stamos\r\n si el docente cumple con las condiciones de responsabilidad\r\n \r\n @param p_dias La cantidad de d\u00EDas a agregar\r\n
+comment7.target=java.lang.String soyDeLaClase()
+comment7.text=\ \r\n Identifica la clase a la que pertenece el objeto\r\n \r\n @return Cadena de caracteres "Docente"\r\n
+numComments=8
